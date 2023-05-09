@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+input {
+  padding: 0.6rem;
+  width: 20rem;
+  border-radius: 0.6rem;
+  outline: none;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}

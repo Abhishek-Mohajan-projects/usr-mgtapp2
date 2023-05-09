@@ -1,0 +1,31 @@
+.user {
+  display: flex;
+  background-color: #222;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.user div {
+  margin-bottom: 0.8rem;
+}
+
+.user h2 {
+  color: orange;
+}
+
+.user a {
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.4rem;
+  transition: all 0.3s;
+  outline: none;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: red;
+}

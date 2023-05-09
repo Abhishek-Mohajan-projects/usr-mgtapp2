@@ -1,0 +1,17 @@
+.users {
+  padding: 1.8rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .users {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .users {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
